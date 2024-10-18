@@ -1,0 +1,8 @@
+<p>Foos</p>
+<div class="container">
+    <ul class="foos">
+        <li class="foo-item" *ngFor="let foo of getFilteredFoos()">
+            {{ 'ID=' + foo.id + ', property=' + foo.fooProperty }}
+        </li>
+    </ul>
+</div>
